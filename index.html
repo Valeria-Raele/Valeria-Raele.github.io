@@ -81,6 +81,26 @@ nav a:hover,.project a:hover { text-decoration: underline; }
 .project p { font-size: 14px; color: var(--muted); margin: 0 0 24px; flex: 1; }
 .project a { font-size: 14px; font-weight: 700; text-underline-offset: 4px; }
 .project .soon { color: #74818a; font-size: 13px; }
+
+/* Selected Projects — categorie e collegamenti */
+.project-category { margin: 38px 0 16px; }
+.project-category h3 {
+  font-size: 12px;
+  letter-spacing: .12em;
+  color: var(--blue);
+  font-weight: 800;
+  margin: 0;
+}
+.project-links {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  margin-top: auto;
+}
+.project-links a { font-size: 14px; }
+.project .project-links { padding-top: 8px; }
+.project-category:first-of-type { margin-top: 0; }
+
 .about { padding: 72px 0 100px; }
 .about p { max-width: 780px; color: var(--muted); }
 footer { border-top: 1px solid var(--line); padding: 24px 0; color: var(--muted); font-size: 13px; }
@@ -105,6 +125,7 @@ footer .wrap { display: flex; justify-content: space-between; gap: 20px; flex-wr
     </nav>
   </div>
 </header>
+
 <main id="home" class="wrap">
   <section class="hero" aria-labelledby="name">
     <div>
@@ -117,37 +138,161 @@ footer .wrap { display: flex; justify-content: space-between; gap: 20px; flex-wr
       <img src="portrait.webp" alt="Portrait of Valeria Raele" width="230" height="230">
     </div>
   </section>
+
   <section id="projects" aria-labelledby="projects-title">
+
     <div class="section-title">
       <h2 id="projects-title">Selected Projects</h2>
-      <span>01 — 02</span>
+      <span>10 Projects · 4 Areas</span>
     </div>
+
+    <!-- 01 / GENERATIVE AI & AGENTIC AI SYSTEMS -->
+
+    <div class="project-category">
+      <h3>01 / GENERATIVE AI &amp; AGENTIC AI SYSTEMS</h3>
+    </div>
+
     <div class="projects">
+
       <article class="project">
         <span class="num">PROJECT 01 / AGENTIC AI</span>
         <h3>Agentic Financial Intelligence</h3>
-        <p>Multi-agent financial intelligence combining quantitative equity analysis and semantic interpretation of corporate disclosures.</p>
-        <a href="https://github.com/Valeria-Raele/agentic-financial-intelligence" target="_blank" rel="noopener noreferrer">View original GitHub repository ↗</a>
+        <p>Multi-agent financial intelligence combining quantitative equity metrics and semantic analysis of corporate disclosures for integrated, multi-layered financial analysis.</p>
+        <div class="project-links">
+          <a href="https://v8a9e9r.s.gy/wJYb0R" target="_blank" rel="noopener noreferrer">Project ↗</a>
+          <a href="https://v8a9e9r.s.gy/qgVL87" target="_blank" rel="noopener noreferrer">Interactive Demo ↗</a>
+          <a href="https://v8a9e9r.s.gy/ZTDiH0" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
       </article>
+
       <article class="project">
-        <span class="num">PROJECT 02 / PERSONAL FINANCE</span>
-        <h3>Personal Finance and Portfolio Optimization</h3>
-        <p>Personal finance analysis and quantitative portfolio optimization, with a modular interactive experience in development.</p>
-        <span class="soon">Interactive project page — coming soon</span>
+        <span class="num">PROJECT 02 / AGENTIC AI</span>
+        <h3>Personal Finance &amp; Portfolio Optimization</h3>
+        <p>Agentic AI system for personal finance management, savings optimization and automated portfolio construction using live market data and risk-adjusted performance metrics.</p>
+        <div class="project-links">
+          <a href="https://v8a9e9r.s.gy/YfQJwv" target="_blank" rel="noopener noreferrer">View Project ↗</a>
+        </div>
       </article>
+
+      <article class="project">
+        <span class="num">PROJECT 03 / REINFORCEMENT LEARNING</span>
+        <h3>AI-Powered Hedging</h3>
+        <p>Training AI agents on synthetic financial markets to replicate derivatives and optimize dynamic investment portfolios through deep reinforcement learning.</p>
+        <div class="project-links">
+          <a href="https://v8a9e9r.s.gy/01Gix3" target="_blank" rel="noopener noreferrer">View Project ↗</a>
+        </div>
+      </article>
+
     </div>
+
+    <!-- 02 / MACHINE LEARNING & QUANTITATIVE ANALYSIS -->
+
+    <div class="project-category">
+      <h3>02 / MACHINE LEARNING &amp; QUANTITATIVE ANALYSIS</h3>
+    </div>
+
+    <div class="projects">
+
+      <article class="project">
+        <span class="num">PROJECT 04 / MACHINE LEARNING</span>
+        <h3>Creditworthiness Prediction &amp; Explainable AI</h3>
+        <p>Forecasting creditworthiness and customer characteristics for a banking debit card case, using SHAP explainability to optimize input data against defined KPIs.</p>
+        <div class="project-links">
+          <a href="https://v8a9e9r.s.gy/eEr2N1" target="_blank" rel="noopener noreferrer">View Project ↗</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <span class="num">PROJECT 05 / MACHINE LEARNING</span>
+        <h3>Bitcoin Treasury &amp; Equity Performance</h3>
+        <p>Analyzing the impact of corporate Bitcoin reserves on stock performance through price correlations and statistical arbitrage techniques.</p>
+        <div class="project-links">
+          <a href="https://v8a9e9r.s.gy/6rQFZb" target="_blank" rel="noopener noreferrer">View Project ↗</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <span class="num">PROJECT 06 / MACHINE LEARNING</span>
+        <h3>Energy Price Forecasting &amp; Monte Carlo</h3>
+        <p>Forecasting energy prices from production and consumption data, incorporating variability estimates through Monte Carlo simulations.</p>
+        <div class="project-links">
+          <a href="https://v8a9e9r.s.gy/mhATSa" target="_blank" rel="noopener noreferrer">View Project ↗</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <span class="num">PROJECT 07 / MACHINE LEARNING</span>
+        <h3>Customer Segmentation &amp; Churn Risk</h3>
+        <p>Marketing customer analysis and propensity modeling using K-Means clustering to identify churn risk, critical offer variables and customer segments.</p>
+        <div class="project-links">
+          <a href="https://v8a9e9r.s.gy/zBrXWd" target="_blank" rel="noopener noreferrer">View Project ↗</a>
+        </div>
+      </article>
+
+      <article class="project">
+        <span class="num">PROJECT 08 / MACHINE LEARNING</span>
+        <h3>Bitcoin Price Forecasting with ARIMA</h3>
+        <p>Forecasting Bitcoin prices through an autoregressive integrated moving average model applied to historical price time series.</p>
+        <div class="project-links">
+          <a href="https://v8a9e9r.s.gy/sm9gUe" target="_blank" rel="noopener noreferrer">View Project ↗</a>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- 03 / BIG DATA & DATABRICKS -->
+
+    <div class="project-category">
+      <h3>03 / BIG DATA &amp; DATABRICKS</h3>
+    </div>
+
+    <div class="projects">
+
+      <article class="project">
+        <span class="num">PROJECT 09 / PYSPARK &amp; SPARK SQL</span>
+        <h3>Bitcoin Market Analysis &amp; Social Sentiment</h3>
+        <p>Analyzing Bitcoin prices through K-Means clustering and sentiment analysis of X posts, examining the 2017 rally and subsequent market fluctuations.</p>
+        <div class="project-links">
+          <a href="https://v8a9e9r.s.gy/VcgKTh" target="_blank" rel="noopener noreferrer">View Project ↗</a>
+        </div>
+      </article>
+
+    </div>
+
+    <!-- 04 / AWS & CLOUD ANALYTICS -->
+
+    <div class="project-category">
+      <h3>04 / AWS &amp; CLOUD ANALYTICS</h3>
+    </div>
+
+    <div class="projects">
+
+      <article class="project">
+        <span class="num">PROJECT 10 / AWS CLOUD</span>
+        <h3>Search Sentiment &amp; Cryptocurrency Volatility</h3>
+        <p>Analyzing correlations between Google search sentiment and Bitcoin and Monero price volatility using orchestration pipelines for simultaneous performance analysis.</p>
+        <div class="project-links">
+          <a href="https://v8a9e9r.s.gy/izBR7o" target="_blank" rel="noopener noreferrer">View Project ↗</a>
+        </div>
+      </article>
+
+    </div>
+
   </section>
+
   <section class="about" id="about">
     <div class="section-title"><h2>About</h2></div>
     <p>My work focuses on financial and investment products, spanning investment funds and life investment solutions, connecting domain expertise with end-to-end product management, digital innovation and applied data science. My independent projects explore quantitative finance and agentic AI.</p>
   </section>
 </main>
+
 <footer>
   <div class="wrap">
     <span>© <span id="year">2026</span> Valeria Raele</span>
     <span>Portfolio hosted on GitHub Pages · <a href="https://github.com/Valeria-Raele" target="_blank" rel="noopener noreferrer">GitHub</a></span>
   </div>
 </footer>
+
 <script>
 document.getElementById('year').textContent = new Date().getFullYear();
 </script>
